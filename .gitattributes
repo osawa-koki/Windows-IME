@@ -1,0 +1,12 @@
+# デフォルトは「LF」「UTF-8」
+*                   text eol=lf encoding=utf-8
+
+# 辞書ファイルは「CRLF」「UTF-16LE」
+# 上記指定を要求している公式ドキュメントは見つからなかったが、
+# 標準の出力では上記設定となっているため、これを準拠。
+windows-ime.txt     text eol=crlf encoding=utf-16le
+
+# 画像等あれば。
+*.png               -text
+*.jpg               -text
+*.jpeg              -text
